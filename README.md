@@ -1,10 +1,12 @@
 # 포렌식 관점에서의 자동차 네비게이션 사용 흔적 분석
 ## Analysis of Car navigation usage traces information
 ### 아이나비
-### Gini
+### Gini(현재 시간 및 위치 데이터 처리가 논문과 차이가 존재하여 수정 중임.)
 + Last.bin(분석 완료): 네비게이션의 가장 최근의 위치 정보(위도, 경도)를 가지고 있음
 + InputHistory.bin(분석 완료): 검색 기능을 통해 검색된 단어(목적지)등의 목록과 검색 시간 정보 포함
 + InputHistory.dat(분석 완료): 검색 기능을 통해 검색된 단어(목적지)등의 목록과 검색 시간 정보 포함
++ RecentData.bin(분석 완료): 특정 위치를 설정하거나 검색 기능을 사용하여 특정 위치를 출발지 또는 도착지로 설정한 경우 지점의 정보를 포함
+
 ### Mappy
 ### Atlan
 
